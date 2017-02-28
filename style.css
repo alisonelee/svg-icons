@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+
+html {
+	background-color: #ece3d0;
+}
+
+h2, h3, ul, a {
+	font-family: "Playfair Display", serif;
+	color: #fff;
+}
+
+h2 {
+	font-size: 5em;
+	text-align: center;
+}
+
+h3 {
+	text-align: center;
+}
+
+ul {
+	margin-left: 20%;
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	padding: 10px;
+}
+
+svg.icons {
+	fill: currentColor;
+	width: 1em;
+	height: 1em;
+}
+
+.extra {
+	margin-left: 20px;
+}
+
+#container {
+	margin-top:  250px;
+	margin-left: 250px;
+}
+
+#versailles {
+	margin-top: 5%;
+	margin-left: 33%;
+}
+
+#top, #bottom, #left, #right {
+	background-color: #fff;
+	position: fixed;
+}
+
+#top, #bottom {
+	left: 0;
+	right: 0;
+	height: 30px;
+}
+
+#top {
+	top: 0;
+}
+
+#bottom {
+	bottom: 0;
+}
+
+#left, #right {
+	top: 0;
+	bottom: 0;
+	width: 30px;
+}
+
+#left {
+	left: 0;
+}
+
+#right {
+	right: 0;
+}
+
